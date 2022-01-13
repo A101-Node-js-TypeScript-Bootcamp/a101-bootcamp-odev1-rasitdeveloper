@@ -24,8 +24,10 @@ Sunucunun çalışabilmesi için aşağıdaki kodlar yazılabilir. Daha detaylı
 >
 >  if (url === "/") {
 >    res.writeHead(200, { "Content-Type": "text/html" });
+>
 >    res.write("INDEX SAYFASI");
 >  }
+>
 >  res.end();
 >});
 >
