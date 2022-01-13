@@ -16,7 +16,9 @@ Sunucunun çalışabilmesi için aşağıdaki kodlar yazılabilir. Daha detaylı
 ##### HTTP modülü ile web sunucusunu kurmak için:
 "http" modülü, Node.js'in çekirdek modüllerinden biri olduğu için npm kullanarak indirmeye gerek yoktur. Aşağıda ki şekilde kullanılabilir. Daha detaylı bilgi için "https://nodejs.org/api/http.html" sayfası ziyaret edilebilir.
 > const http = require("http");
+
 > const server = http.createServer((req, res) => {
+    
 >  const url = req.url;
 >
 >  if (url === "/") {
