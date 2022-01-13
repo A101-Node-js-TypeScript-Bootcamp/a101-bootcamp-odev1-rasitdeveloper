@@ -4,7 +4,7 @@
 Daha sonra express paketini indirmek için terminale "npm i express" komutu yazılır.
 Sunucunun çalışabilmesi için aşağıdaki kodlar yazılabilir. Daha detaylı bilgi için "https://www.npmjs.com/package/express" adresi ziyaret edilebilir.
 > const express = require('express')
-
+>
 > const app = express()
 >
 > app.get('/', function (req, res) {
@@ -17,9 +17,9 @@ Sunucunun çalışabilmesi için aşağıdaki kodlar yazılabilir. Daha detaylı
 ##### HTTP modülü ile web sunucusunu kurmak için:
 "http" modülü, Node.js'in çekirdek modüllerinden biri olduğu için npm kullanarak indirmeye gerek yoktur. Aşağıda ki şekilde kullanılabilir. Daha detaylı bilgi için "https://nodejs.org/api/http.html" sayfası ziyaret edilebilir.
 > const http = require("http");
-
+>
 > const server = http.createServer((req, res) => {
-    
+>    
 >  const url = req.url;
 >
 >  if (url === "/") {
