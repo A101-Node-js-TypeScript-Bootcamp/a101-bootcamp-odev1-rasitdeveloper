@@ -1,5 +1,5 @@
 # Nodejs ile web sunucu oluşturma
-##### Express ile web sunucusunu kurmak için:
+##### Express ile web sunucusu kurmak için:
 Öncelikle package.json dosyasının oluşturulması gerekir bunun için terminal ekranına "npm init" komutu yazılır.
 Daha sonra express paketini indirmek için terminale "npm i express" komutu yazılır.
 Sunucunun çalışabilmesi için aşağıdaki kodlar yazılabilir. Daha detaylı bilgi için "https://www.npmjs.com/package/express" adresi ziyaret edilebilir.
@@ -14,7 +14,7 @@ Sunucunun çalışabilmesi için aşağıdaki kodlar yazılabilir. Daha detaylı
 > app.listen(3000)
 
 &nbsp;
-##### HTTP modülü ile web sunucusunu kurmak için:
+##### HTTP modülü ile web sunucusu kurmak için:
 "http" modülü, Node.js'in çekirdek modüllerinden biri olduğu için npm kullanarak indirmeye gerek yoktur. Aşağıda ki şekilde kullanılabilir. Daha detaylı bilgi için "https://nodejs.org/api/http.html" sayfası ziyaret edilebilir.
 > const http = require("http");
 >
